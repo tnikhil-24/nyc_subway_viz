@@ -1,0 +1,130 @@
+/* NYCSubwayUsageDashboard.css */
+
+.dashboard-page {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .page-description {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+  
+  .viz-container {
+    width: 100%;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .dashboard-sections {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .dashboard-sections {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .section {
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .insight-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 576px) {
+    .insight-cards {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .insight-card {
+    background-color: white;
+    padding: 1.2rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .insight-card h3 {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin-bottom: 0.75rem;
+  }
+  
+  .insight-card p {
+    font-size: 0.95rem;
+    color: #7f8c8d;
+    line-height: 1.5;
+  }
+  
+  .viz-list {
+    margin-bottom: 2rem;
+  }
+  
+  .viz-list h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .viz-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+  
+  .viz-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .viz-item span {
+    font-size: 0.9rem;
+    color: #34495e;
+  }
+  
+  .interactive-features h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .interactive-features ul {
+    padding-left: 1.5rem;
+    margin-bottom: 0;
+  }
+  
+  .interactive-features li {
+    font-size: 0.9rem;
+    color: #34495e;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+  }

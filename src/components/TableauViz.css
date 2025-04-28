@@ -1,0 +1,22 @@
+.tableau-viz-container {
+    width: 100%;
+    height: 600px;
+    position: relative;
+  }
+  
+  .tableau-viz {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .tableau-viz-container {
+      height: 450px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .tableau-viz-container {
+      height: 350px;
+    }
+  }

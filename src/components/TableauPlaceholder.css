@@ -1,0 +1,44 @@
+.tableau-placeholder {
+    width: 100%;
+    height: 600px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .placeholder-content {
+    text-align: center;
+    padding: 2rem;
+    max-width: 500px;
+  }
+  
+  .placeholder-content h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .placeholder-content p {
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .placeholder-note {
+    font-size: 0.9rem;
+    color: #999;
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    .tableau-placeholder {
+      height: 450px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .tableau-placeholder {
+      height: 350px;
+    }
+  }

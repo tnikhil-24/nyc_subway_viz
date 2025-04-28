@@ -1,0 +1,80 @@
+/* PedestrianDashboard.css */
+.dashboard-page {
+    padding: 1rem 0;
+  }
+  
+  .viz-container {
+    width: 100%;
+    margin-bottom: 2rem;
+    min-height: 827px; /* Match the height specified in the script */
+  }
+  
+  .dashboard-sections {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .insight-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .insight-card {
+    background-color: #e6f7ff;
+    padding: 1.25rem;
+    border-radius: 6px;
+    border-left: 4px solid #1890ff;
+  }
+  
+  .insight-card h3 {
+    color: #1890ff;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .insight-card p {
+    color: #333;
+    font-size: 0.9rem;
+  }
+  
+  .dashboard-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .viz-list h3, .interactive-features h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .viz-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+  
+  .viz-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  .interactive-features ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
+  .interactive-features li {
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  @media (max-width: 500px) {
+    .viz-container {
+      min-height: 1577px; /* Match the mobile height specified in the script */
+    }
+  } 
