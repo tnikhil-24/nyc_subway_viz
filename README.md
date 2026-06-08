@@ -1,70 +1,157 @@
-# Getting Started with Create React App
+# 🚇 NYC Subway Visualization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive web application that visualizes New York City's subway network and transportation data through engaging maps, charts, and analytics. The project helps users explore transit patterns, station connectivity, and urban mobility trends across NYC.
 
-## Available Scripts
+## 📖 Overview
 
-In the project directory, you can run:
+NYC Subway Visualization is a data-driven frontend application designed to make complex transportation datasets easier to understand through interactive visualizations.
 
-### `npm start`
+The application provides:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Interactive transit data exploration
+- Visualization of subway routes and stations
+- Urban mobility insights
+- Responsive user interface
+- Real-time data presentation capabilities
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 🚉 Subway station visualization
+- 🗺️ Interactive transit mapping
+- 📊 Data-driven charts and insights
+- 📱 Responsive design for desktop and mobile
+- ⚡ Fast React-based frontend
+- 🎨 Modern UI powered by Tailwind CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Tailwind CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Development Tools
+- Create React App
+- npm
+- PostCSS
+- Autoprefixer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```text
+nyc_subway_viz/
+│
+├── public/
+│   ├── index.html
+│   └── assets/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── data/
+│   ├── styles/
+│   └── App.js
+│
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-### `npm run eject`
+## 🚀 Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Clone the repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/tnikhil-24/nyc_subway_viz.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Navigate to the project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+cd nyc_subway_viz
+```
 
-## Learn More
+### Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Run the development server
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Open your browser and visit:
 
-### Analyzing the Bundle Size
+```text
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🏗️ Build for Production
 
-### Making a Progressive Web App
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The optimized production build will be generated in the `build/` directory.
 
-### Advanced Configuration
+## 🧪 Running Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm test
+```
 
-### Deployment
+## 🎯 Learning Outcomes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project demonstrates:
 
-### `npm run build` fails to minify
+- Data visualization techniques
+- React component architecture
+- Frontend application development
+- Interactive UI design
+- Urban transportation data analysis
+- Collaborative software development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👥 Contributors
+
+### 🚀 Project Lead
+**Nikhil T**
+- Project architecture and development
+- Data integration and visualization design
+- Application deployment and maintenance
+
+### 💻 Contributor
+**Bharath Vupputuri**
+- Frontend development and UI enhancements
+- Data visualization implementation
+- Feature development and testing
+- Bug fixes and performance improvements
+- Project documentation and user experience improvements
+
+### Collaboration
+This project was developed collaboratively to explore and visualize NYC transportation data through an interactive web application. The contributors worked together on design, development, testing, and deployment to create an engaging data visualization platform.
+
+## 🌐 Live Demo
+
+View the deployed application:
+
+https://nyc-subway-viz.vercel.app
+
+## 📜 License
+
+This project is intended for educational and portfolio purposes.
+
+## ⭐ Acknowledgments
+
+- NYC Open Data
+- MTA Transit Data
+- React Community
+- Open-source visualization libraries
+
+---
+
+If you found this project interesting, consider giving the repository a star.
