@@ -63,6 +63,7 @@ function Navigation({ activeTab, onTabChange }) {
               <button 
                 className={`nav-link ${activeTab === tab.id ? 'active' : ''}`}
                 onClick={() => onTabChange(tab.id)}
+                aria-label={tab.label}
               >
                 {tab.label}
               </button>
@@ -71,7 +72,12 @@ function Navigation({ activeTab, onTabChange }) {
           
           {/* Pedestrian Dashboards Dropdown */}
           <li className="nav-item dropdown">
-            <button className="nav-link dropdown-toggle">
+            <button
+              className="nav-link dropdown-toggle"
+              aria-haspopup="true"
+              aria-expanded="false"
+              aria-label="Pedestrian Data menu"
+            >
               Pedestrian Data
             </button>
             <div className="dropdown-menu">
@@ -89,7 +95,12 @@ function Navigation({ activeTab, onTabChange }) {
           
           {/* Subway Dashboards Dropdown */}
           <li className="nav-item dropdown">
-            <button className="nav-link dropdown-toggle">
+            <button
+              className="nav-link dropdown-toggle"
+              aria-haspopup="true"
+              aria-expanded="false"
+              aria-label="Subway Data menu"
+            >
               Subway Data
             </button>
             <div className="dropdown-menu">
@@ -107,9 +118,14 @@ function Navigation({ activeTab, onTabChange }) {
           
           {/* Insights Dropdown */}
           <li className="nav-item dropdown">
-            <button className="nav-link dropdown-toggle">
-              Insights
-            </button>
+            <button
+  className="nav-link dropdown-toggle"
+  aria-haspopup="true"
+  aria-expanded="false"
+  aria-label="Insights menu"
+>
+  Insights
+</button>
             <div className="dropdown-menu">
               {insightTabs.map(tab => (
                 <button 
