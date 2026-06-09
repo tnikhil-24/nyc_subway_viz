@@ -8,7 +8,6 @@ import OverviewPage from './pages/OverviewPage';
 import MethodologyPage from './pages/MethodologyPage';
 import PedestrianDashboard from './pages/PedestrianDashboard';
 import SubwayDashboard from './pages/SubwayDashboard';
-import VisualizationsPage from './pages/VisualizationGallery';
 import InsightsPage from './pages/InsightsPage';
 
 // Import new dashboard components
@@ -35,7 +34,7 @@ function App() {
       case 'subway-dashboard':
         return <SubwayDashboard />;
       case 'visualizations':
-        return <VisualizationsPage />;
+        return <VisualizationGallery />;
       case 'insights':
         return <InsightsPage />;
       // New dashboard routes
