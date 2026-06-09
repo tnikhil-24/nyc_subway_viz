@@ -34,7 +34,7 @@ function App() {
       case 'subway-dashboard':
         return <SubwayDashboard />;
       case 'visualizations':
-  return <VisualizationGallery />;
+        return <VisualizationGallery />;
       case 'insights':
         return <InsightsPage />;
       // New dashboard routes
